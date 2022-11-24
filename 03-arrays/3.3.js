@@ -6,9 +6,9 @@ for (let i=1; i <= dimension; i++){
 }
 console.log("The array you entered is: " + array);
 
-// The required program that add all the elements of an array
-let sum=0;
+// The required program that create a duplicate of a given array
+let duplicateArray = [];
 for (let elem of array){
-    sum=sum+elem;
+    duplicateArray.push(elem);
 }
-console.log("The sum of the elements of the array is "+sum);
+console.log("The duplicate array is: " + duplicateArray);

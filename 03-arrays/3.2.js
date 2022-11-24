@@ -4,7 +4,7 @@ alert("Entrer les "+ dimension + " valeurs du tableau dans les fenêtres suivant
 for (let i=1; i <= dimension; i++){
     array.push(Number(prompt("Valeur :","Nombre")));
 }
-console.log(array);
+console.log("The array you entered is: " + array);
 
 // The required program that calculate the average value of an array
 let sum=0
