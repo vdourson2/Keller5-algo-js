@@ -1,4 +1,6 @@
 
+//This function takes an array inputAr and a number n as arguments 
+//and returns a random selection of n elements of the array. 
 function pickLearner(inputAr, n){
     let array=[];
     for (let i=1;i<=n;i++){
