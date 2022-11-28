@@ -1,4 +1,6 @@
-//This function
+//This function takes no arguments.
+//It asks the user the name, production year and names of the cast members (as much as he wants) of his favorite TV serie,
+//and returns an object containing this data.
 function askTvSerie(){
     let favorite = { };
     favorite.name=prompt("What is the name of your favorite TV serie","Name");
